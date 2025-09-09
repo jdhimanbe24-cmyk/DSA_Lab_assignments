@@ -1,3 +1,4 @@
+//concatenate two strings 
 #include <iostream>
 #include <string>
 using namespace std;
@@ -9,3 +10,5 @@ int main() {
     cout << "Enter second string: ";
     cin >> s2;
     cout << "Concatenated: " << s1 + s2 << endl;
+}
+
