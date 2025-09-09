@@ -1,3 +1,4 @@
+// to store a tri-diagonal matrix in a efficient way
 #include <iostream>
 using namespace std;
 
@@ -35,4 +36,5 @@ int main(){
     t.set(3,2,7); t.set(3,3,10);
     t.display();
     return 0;
+
 }
