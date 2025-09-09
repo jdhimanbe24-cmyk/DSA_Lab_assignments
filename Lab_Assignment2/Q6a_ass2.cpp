@@ -1,3 +1,4 @@
+// to find transpose of a sparse matrix assuming matrix is represented using triplets.
 #include <iostream>
 using namespace std;
 
@@ -129,4 +130,5 @@ int main() {
     cout << "\nA * B:\n"; display(multiply(A,B));
 
     return 0;
+
 }
