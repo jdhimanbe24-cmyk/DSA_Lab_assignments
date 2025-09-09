@@ -1,3 +1,4 @@
+// find a missing number using binary search.
 #include <iostream>
 using namespace std;
 
@@ -16,3 +17,4 @@ int main() {
     int n = 6;
     cout << "Missing number: " << findMissingBinary(arr, n) << endl;
 }
+
