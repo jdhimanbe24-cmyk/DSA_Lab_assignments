@@ -1,3 +1,4 @@
+// sort the strings in alphabetical order. 
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -13,3 +14,4 @@ int main() {
     cout << "Sorted order:\n";
     for(int i=0;i<n;i++) cout << arr[i] << endl;
 }
+
