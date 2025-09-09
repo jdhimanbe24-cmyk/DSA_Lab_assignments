@@ -1,3 +1,4 @@
+// delete all the vowels from a string
 #include <iostream>
 #include <string>
 using namespace std;
@@ -15,3 +16,4 @@ int main() {
     for(char c: s) if(!isVowel(c)) result+=c;
     cout << "Without vowels: " << result << endl;
 }
+
