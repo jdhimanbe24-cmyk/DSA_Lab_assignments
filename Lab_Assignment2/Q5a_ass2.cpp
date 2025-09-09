@@ -1,3 +1,4 @@
+// to store diagonal matrix in a efficient way
 #include <iostream>
 using namespace std;
 
@@ -25,3 +26,4 @@ int main(){
     d.display();
     return 0;
 }
+
