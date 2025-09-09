@@ -1,3 +1,4 @@
+// to store a upper triangular matrix in a efficient way
 #include <iostream>
 using namespace std;
 
@@ -25,4 +26,5 @@ int main(){
     u.set(0,0,5); u.set(0,1,1); u.set(0,2,2); u.set(1,1,9); u.set(2,2,7); u.set(3,3,4);
     u.display();
     return 0;
+
 }
