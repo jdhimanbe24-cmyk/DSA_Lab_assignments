@@ -1,3 +1,4 @@
+// to store a symmetric matrix in a efficient way
 #include <iostream>
 using namespace std;
 
@@ -25,4 +26,5 @@ int main(){
     s.set(0,0,4); s.set(1,0,2); s.set(1,1,5); s.set(2,0,7); s.set(2,2,9);
     s.display();
     return 0;
+
 }
