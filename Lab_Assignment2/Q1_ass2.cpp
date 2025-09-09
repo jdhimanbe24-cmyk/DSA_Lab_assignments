@@ -1,3 +1,4 @@
+//  binary search
 #include <iostream>
 using namespace std;
 
@@ -22,4 +23,5 @@ int main() {
     int result = binarySearch(arr, n, key);
     if (result != -1) cout << "Element found at index " << result << endl;
     else cout << "Element not found" << endl;
+
 }
