@@ -1,3 +1,4 @@
+// sum of every row and every column in a two dimensional array.
 #include <iostream>
 using namespace std;
 
@@ -24,4 +25,5 @@ int main() {
         cout << "Col " << j << ": " << sum << endl;
     }
     return 0;
+
 }
