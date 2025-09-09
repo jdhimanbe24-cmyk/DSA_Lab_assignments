@@ -1,3 +1,4 @@
+// to find number of inversions in an array.
 #include <iostream>
 using namespace std;
 
@@ -10,3 +11,4 @@ int main() {
             if (arr[i] > arr[j]) count++;
     cout << "Number of inversions: " << count << endl;
 }
+
