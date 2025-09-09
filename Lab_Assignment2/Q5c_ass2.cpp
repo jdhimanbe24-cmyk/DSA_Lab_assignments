@@ -1,3 +1,4 @@
+// to store a lower triangular matrix in a efficient way
 #include <iostream>
 using namespace std;
 
@@ -26,4 +27,5 @@ int main(){
     l.set(3,0,7); l.set(3,3,9);
     l.display();
     return 0;
+
 }
