@@ -1,3 +1,4 @@
+// find a missing number using linear search.
 #include <iostream>
 using namespace std;
 
@@ -13,3 +14,4 @@ int main() {
     int n = 6;
     cout << "Missing number: " << findMissingLinear(arr, n) << endl;
 }
+
